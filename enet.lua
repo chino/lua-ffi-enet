@@ -13,7 +13,7 @@ ffi.cdef( io.open('enet.h'):read('*all') )
 -- 3. run libtoolize
 -- 4. aclocal && automake -a -c --foreign && autoconf
 -- 5. make
-local enet = ffi.load('./libenet.so')
+local enet = ffi.load('./enet-1.2.1.so/.libs/libenet.so')
 
 -- list of methods
 local methods = {}
