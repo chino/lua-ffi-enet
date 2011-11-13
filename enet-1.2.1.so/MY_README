@@ -1,0 +1,10 @@
+configure.in
+	AC_PROG_LIBTOOL
+
+Makefile.am
+	#lib_LIBRARIES = libenet.a
+	lib_LTLIBRARIES = libenet.la
+
+libtoolize
+aclocal && automake -a -c --foreign && autoconf
+make
