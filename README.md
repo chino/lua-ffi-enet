@@ -18,9 +18,11 @@ Note:
 
 Simple chat interface using the bindings:
 
-	# host an enet session on port 2300 and wait for clients
-	./test.lua localhost 2300
+````shell
+# host an enet session on port 2300 and wait for clients
+./test.lua localhost 2300
 
-	# in another console
-	# using source port 2301 connect to the host on 2300
-	./test.lua localhost 2301 localhost 2300
+# in another console
+# using source port 2301 connect to the host on 2300
+./test.lua localhost 2301 localhost 2300
+````
